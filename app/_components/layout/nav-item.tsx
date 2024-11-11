@@ -11,11 +11,11 @@ export const NavItem: FC<Props> = ({ label, href, isActive }) => {
   return (
     <Link
       href={href}
-      className={`${
+      className={`pb-1 px-1 hover:text-primary border-b-2 border-transparent hover:border-primary ${
         isActive
-          ? "text-primary border-b-2 border-primary"
+          ? "text-primary !border-primary"
           : "text-gray-700 border-transparent"
-      } hover:text-primary border-primary`}
+      }`}
     >
       {label}
     </Link>

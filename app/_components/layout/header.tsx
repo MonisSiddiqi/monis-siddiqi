@@ -25,9 +25,9 @@ export const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="flex justify-between items-center px-4 py-2 ">
+    <header className="flex justify-between items-center px-4 py-6 ">
       <p className="bg-primary p-2 rounded-md text-2xl text-white italic">MS</p>
-      <ul className="flex gap-4">
+      <ul className="flex gap-7">
         {navItemData.map(({ id, label, href }) => {
           return (
             <li key={id}>
