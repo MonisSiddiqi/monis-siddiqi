@@ -1,9 +1,4 @@
-import {
-  BriefcaseBusinessIcon,
-  CalendarIcon,
-  CircleIcon,
-  GraduationCapIcon,
-} from "lucide-react";
+import { BriefcaseBusinessIcon, GraduationCapIcon } from "lucide-react";
 import { TimelineItem } from "./timeline-item";
 
 const experienceData = [

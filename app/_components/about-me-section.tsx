@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Heading } from "./layout/heading";
-import HeroImageShape from "@/app/assets/hero-image-shape.png";
+import AboutMeImage from "@/app/assets/about-me-section-image.svg";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { PersonalInfo } from "./personal-info";
@@ -14,11 +14,11 @@ export const AboutMeSection = () => {
       <div className="grid grid-cols-2 mt-12">
         {/* Image  */}
         <Image
-          src={HeroImageShape.src}
-          height={HeroImageShape.height}
-          width={HeroImageShape.width}
+          src={AboutMeImage.src}
+          height={AboutMeImage.height}
+          width={AboutMeImage.width}
           alt="image shape"
-          className="mx-auto"
+          className="mx-auto "
         />
 
         {/* Details  */}

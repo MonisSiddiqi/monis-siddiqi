@@ -2,7 +2,6 @@ import {
   CloudIcon,
   Code2Icon,
   DatabaseIcon,
-  FigmaIcon,
   LayersIcon,
   ServerIcon,
 } from "lucide-react";
